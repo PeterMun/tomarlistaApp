@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B39D1C262A45EBE200839EDA /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39D1C252A45EBE200839EDA /* LoginController.swift */; };
+		B39D1C282A45EC2D00839EDA /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39D1C272A45EC2D00839EDA /* HomeController.swift */; };
+		B39D1C2B2A460A9A00839EDA /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39D1C2A2A460A9A00839EDA /* AuthHeaderView.swift */; };
 		B3C988B62A3F927D00F193DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C988B52A3F927D00F193DA /* AppDelegate.swift */; };
 		B3C988B82A3F927D00F193DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C988B72A3F927D00F193DA /* SceneDelegate.swift */; };
-		B3C988BA2A3F927D00F193DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C988B92A3F927D00F193DA /* ViewController.swift */; };
-		B3C988BD2A3F927D00F193DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C988BB2A3F927D00F193DA /* Main.storyboard */; };
 		B3C988BF2A3F927F00F193DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C988BE2A3F927F00F193DA /* Assets.xcassets */; };
 		B3C988C22A3F927F00F193DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C988C02A3F927F00F193DA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B39D1C252A45EBE200839EDA /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		B39D1C272A45EC2D00839EDA /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		B39D1C2A2A460A9A00839EDA /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
 		B3C988B22A3F927D00F193DA /* tomaListaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tomaListaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C988B52A3F927D00F193DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3C988B72A3F927D00F193DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B3C988B92A3F927D00F193DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B3C988BC2A3F927D00F193DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3C988BE2A3F927F00F193DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3C988C12A3F927F00F193DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3C988C32A3F927F00F193DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +39,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B39D1C242A45E33C00839EDA /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				B3C988B52A3F927D00F193DA /* AppDelegate.swift */,
+				B3C988B72A3F927D00F193DA /* SceneDelegate.swift */,
+				B3C988BE2A3F927F00F193DA /* Assets.xcassets */,
+				B3C988C02A3F927F00F193DA /* LaunchScreen.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		B39D1C292A45EDB800839EDA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B39D1C2A2A460A9A00839EDA /* AuthHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		B3C988A92A3F927D00F193DA = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +77,10 @@
 		B3C988B42A3F927D00F193DA /* tomaListaApp */ = {
 			isa = PBXGroup;
 			children = (
-				B3C988B52A3F927D00F193DA /* AppDelegate.swift */,
-				B3C988B72A3F927D00F193DA /* SceneDelegate.swift */,
-				B3C988B92A3F927D00F193DA /* ViewController.swift */,
-				B3C988BB2A3F927D00F193DA /* Main.storyboard */,
-				B3C988BE2A3F927F00F193DA /* Assets.xcassets */,
-				B3C988C02A3F927F00F193DA /* LaunchScreen.storyboard */,
+				B39D1C252A45EBE200839EDA /* LoginController.swift */,
+				B39D1C272A45EC2D00839EDA /* HomeController.swift */,
+				B39D1C292A45EDB800839EDA /* Views */,
+				B39D1C242A45E33C00839EDA /* Supporting */,
 				B3C988C32A3F927F00F193DA /* Info.plist */,
 			);
 			path = tomaListaApp;
@@ -127,7 +146,6 @@
 			files = (
 				B3C988C22A3F927F00F193DA /* LaunchScreen.storyboard in Resources */,
 				B3C988BF2A3F927F00F193DA /* Assets.xcassets in Resources */,
-				B3C988BD2A3F927D00F193DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +156,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3C988BA2A3F927D00F193DA /* ViewController.swift in Sources */,
+				B39D1C262A45EBE200839EDA /* LoginController.swift in Sources */,
 				B3C988B62A3F927D00F193DA /* AppDelegate.swift in Sources */,
 				B3C988B82A3F927D00F193DA /* SceneDelegate.swift in Sources */,
+				B39D1C2B2A460A9A00839EDA /* AuthHeaderView.swift in Sources */,
+				B39D1C282A45EC2D00839EDA /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B3C988BB2A3F927D00F193DA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B3C988BC2A3F927D00F193DA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B3C988C02A3F927F00F193DA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,9 +303,9 @@
 				INFOPLIST_FILE = tomaListaApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,9 +330,9 @@
 				INFOPLIST_FILE = tomaListaApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
